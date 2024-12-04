@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    align-items: center;
+}
+.title h4{
+    color: #222;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.title h2{
+    color: #222;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+}
+nav .sitebysite{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+nav{
+margin-top: 50px;
+   
+}
+.sitebysite .nav_item{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 45px;
+  justify-content: end;
+}
+.sitebysite .nav_item ul{
+    display: contents;
+}
+.nav_item ul li{
+    color: #838383;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    transition: 3s;
+}
+.nav_item ul li:hover{
+color: #8671FC;
+}
+.banner{
+    margin-top: 76px;
+}
+.banner .sitebysite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.banner .left h3{
+    color: #222;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.banner .left h3 strong{
+    color: #F05D7B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.banner .left h1{
+    color: #222;
+     margin-top: 100px;
+    font-family: Raleway;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    margin-top: 20px;
+}
+.banner .left p{
+    color: #838383;
+    width: 471px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+}
+.banner .hire{
+    color: #8671FC;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    transition: 3s;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+.banner .hire:hover{
+    background-color: #8671FC;
+    color: #fff;
+   
+}
+.banner .btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:34.95px;
+    justify-content: start;
+    margin-top: 50px;
+}
+.banner .write img{
+width: 100%;
+}
+/* =======about==== */
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+#about{
+    background: url("../images/about.png") no-repeat center;
+    background-size: cover;
+    margin-top: 121px;
+}
+#about .sitebysite{
+    display: grid;
+    grid-template-columns: 580px 421px;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+    column-gap: 90px;
+}
+#about .left h3{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+#about .left h1{
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 21px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+#about .left p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+    margin-bottom: 70px;
+    color: #fff;
+}
+#about .left .button{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 11.84px;
+    color: #fff;
+}
+#about .left .button a{
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-block;
+    left: 0;
+    color: #fff;
+}
+#about .left .button i{
+    width: 8.159px;
+    height: 14px;
+}
+#about .right h1{
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #fff; 
+    width: 360px;
+   }
+   #about .right p{
+   font-family: Raleway;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+   letter-spacing: 0.2px;
+   width: 421px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   color: #fff;
+   }
+   #about .right a{
+    color: #fff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+   }
+/* =======about end===== */
+/* =====skill strat==== */
+#skill{
+    margin-top: 121px;
+}
+#skill .item h5{
+    color: #222;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 141.667% */
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+#skill .item h5:hover{
+    color: #fff;
+}
+#skill .item p{
+    color: #838383;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    transition: 0.3s;
+}
+#skill .item p:hover{
+color: #fff;
+}
+#skill .sitebysite{
+    display: grid;
+    grid-template-columns: repeat(3,370px);
+    column-gap: 30px;
+}
+#skill .item {
+padding: 50px;
+transition: 0.3s;
+}
+#skill .item:hover {
+    background-color: #F05D7B;
+    color: #fff;
+    }
+/* =====skill end==== */
+/* =====Portfolio srat==== */
+#Portfolio .hadding{
+display: grid;
+grid-template-columns: auto auto auto auto;
+justify-content: center;
+gap: 71px;
+margin-top: 40px;
+margin-bottom: 70px;
+}
+#Portfolio .hadding ul{
+    display: contents;
+}
+#Portfolio .sitebysite{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(auto auto);
+    gap: 30px;
+    margin-bottom: 150px;
+}
+#Portfolio .item{
+    background-color: #CECECE;
+    width: 370px;
+    height: 334px;
+}
+/* =====Portfolio end==== */
+/* ====tastimonial start==== */
+#tastimonial .sitebysite{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 80px;
+}
+#tastimonial .left h3{
+    color: #222;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#tastimonial .left h1{
+    color: #222;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    max-width: 270px;
+}
+#tastimonial .left p{
+    color: #838383;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+    margin-bottom: 100px;
+    max-width: 311px;
+}
+#tastimonial .left  i{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+   border:1px solid #8671FC;
+   color: #222;
+
+}
+#tastimonial .left  i:hover{
+    background-color: #8671FC;
+    color: #fff;
+}
+#tastimonial .right {
+   display: grid;
+   grid-template-columns: auto auto;
+}
+#tastimonial .right .sada p{
+    color: #838383;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+    margin-bottom: 56px;
+    max-width: 280px;
+}
+
+
+#tastimonial .right .sada  i{
+position: relative;
+top: -20px;
+left: 20px;
+}
+#tastimonial .right .kalo img{
+    width: 184px;
+    height: 184px;
+}
+#tastimonial .right .sada h3{
+    color: #222;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    margin-bottom: 10px;
+}
+#tastimonial .right .sada h4{
+    color: #838383;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px; /* 135.714% */
+    letter-spacing: 0.3px;
+}
+
+
+
+
+#company .sitebysite{
+    display: grid;
+    grid-template-columns: repeat(5,auto );
+}
+#company .sitebysite .item{
+
+}
+#company .item1 img{
+object-fit: cover;
+width: 100%; }
+
+
+/* =====compani end ===== */
+footer{
+    background: url("../images/foter.png") no-repeat center;
+    background-size:cover;
+    padding:100px 0 0 0;
+    padding-bottom: 40px;
+    
+
+}
+ footer h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align:center;
+    margin-bottom: 20px;
+}
+footer h1{ 
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    width: 421px;
+    margin: 0 auto;
+
+}
+footer button{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    text-transform: uppercase;
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color: #8671FC;
+    border: 0;
+    margin-top: 50px;
+} 
+footer .btn{
+text-align: center;
+}
+footer h5{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+footer p{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+}
